@@ -1,0 +1,129 @@
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    background:yellowgreen;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
+    /* background: url(/img/pexels-mentatdgt-1266152.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    scroll-behavior: smooth;
+    /* background-attachment:scroll; */
+
+    
+    
+}
+
+.city{
+    font-family: 'Kanit', sans-serif;
+    
+}
+.card{
+    color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 480px;
+    /* height: 300px; */
+    margin: 1em;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid wheat;
+   
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-bar{
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 18px;
+    font-family: inherit;
+    width: 300px;
+}
+
+button{
+    border: 2px solid rgb(6, 5, 5);
+    border-radius: 10px;
+    width: 100px;
+
+}
+button:hover{
+    background-color:burlywood;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.temp{
+  font-size: 35px;  
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-items:center ;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.navlist{
+    
+    display: flex;
+    list-style: none;
+   
+    margin-left: 770px;
+}
+.navlist li a{
+    
+    text-decoration: none;
+    font-size:20px;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    color: #fff;
+}
+
+.navlist li a:hover{
+    
+    background-color:#39393b;
+}
+
+.nav h3{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #101011;
+    margin-top: 250px;
+    color: #fff;
+    flex-direction: column;
+}
+
+.footersm{
+    
+}
